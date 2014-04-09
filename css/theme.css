@@ -1,0 +1,152 @@
+/**
+ * Default theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+@import url(http://snugug.github.io/fonts/homestead-subset.css);
+@import url(http://snugug.github.io/fonts/north.css);
+@import url(http://snugug.github.io/fonts/ostrich.css);
+@import url(http://snugug.github.io/fonts/scp.css);
+@import url(http://snugug.github.io/fonts/pt.css);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #2a9ed5;
+  font-family: 'pt';
+  font-size: 2em;
+}
+
+* {
+  text-rendering: optimizeLegibility;
+}
+
+.reveal h1:not(.north), .reveal h2:not(.north), .reveal h3:not(.north), .reveal h4:not(.north), .reveal h5:not(.north) {
+  font-family: 'ostrich';
+  letter-spacing: .1em;
+}
+
+.intro .state-background {
+  background: black;
+}
+.north .state-background {
+  background: #f7fafc;
+}
+
+.intro {
+  color: white;
+}
+
+.reveal .north--logo, .reveal .north--wordmark {
+  -webkit-font-feature-settings: "liga","dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -moz-font-feature-settings: "liga","dlig";
+  -ms-font-feature-settings: "liga","dlig";
+  -o-font-feature-settings: "liga","dlig";
+  font-feature-settings: "liga","dlig";
+  color: #11517d;
+  font-family: 'north';
+  text-transform: lowercase;
+  display: inline-block;
+  border: none;
+}
+.reveal .north--title {
+  font-size: 7em;
+}
+.reveal .north--logo {
+  padding-right: .16em;
+  -ms-transform: translateY(0.1194em);
+  -webkit-transform: translateY(0.1194em);
+  transform: translateY(0.1194em);
+}
+.reveal .north--wordmark {
+  font-size: .75em;
+  color: #5ea9d0;
+  text-transform: uppercase;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  font-family: 'homestead-one', 'homestead-regular';
+}
+.reveal .north--wordmark:before {
+  content: 'north';
+  text-transform: uppercase;
+  font-family: 'homestead-two', 'homestead-regular';
+  color: #559abe;
+  position: absolute;
+  left: 0;
+  top: -0.065em;
+}
+.reveal .north--wordmark:after {
+  content: 'north';
+  text-transform: uppercase;
+  font-family: 'homestead-three', 'homestead-regular';
+  color: #6db1d4;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

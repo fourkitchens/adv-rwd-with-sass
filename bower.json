@@ -1,0 +1,7 @@
+{
+  "name": "advanced-responsive-web-design",
+  "version": "0.1.0",
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  }
+}
