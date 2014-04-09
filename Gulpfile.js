@@ -49,6 +49,12 @@ gulp.task('browserSync', function () {
   ], {
     server: {
       baseDir: paths.html
+    },
+    ghostMode: {
+      clicks: false,
+      links: false,
+      forms: false,
+      scroll: false
     }
   });
 });
@@ -58,3 +64,5 @@ gulp.task('browserSync', function () {
 //////////////////////////////
 gulp.task('server', ['watch', 'compass', 'browserSync']);
 gulp.task('serve', ['server']);
+
+gulp.task('default', ['server']);

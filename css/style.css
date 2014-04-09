@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  -webkit-perspective: 600px;
+  perspective: 600px;
+  font-size: 5em;
+}
+
+main article {
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+main article:nth-of-type(1) {
+  -webkit-transform: skew(-5deg, 5deg);
+  transform: skew(-5deg, 5deg);
+  background-color: red;
+}
+main article:nth-of-type(2) {
+  -webkit-transform: skew(-10deg, 5deg);
+  transform: skew(-10deg, 5deg);
+  background-color: green;
+}
+main article:nth-of-type(3) {
+  -webkit-transform: skew(-15deg, 5deg);
+  transform: skew(-15deg, 5deg);
+  background-color: blue;
+}
+main article:nth-of-type(4) {
+  -webkit-transform: skew(-20deg, 5deg);
+  transform: skew(-20deg, 5deg);
+  background-color: yellow;
+}
+main article:nth-of-type(5) {
+  -webkit-transform: skew(-25deg, 5deg);
+  transform: skew(-25deg, 5deg);
+  background-color: orange;
+}
+main article section {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
