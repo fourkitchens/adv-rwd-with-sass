@@ -1,0 +1,1 @@
+![Spreadsheet view of an example Content Inventory](http://pointnorth.io/images/xl/content-inventory.jpg)

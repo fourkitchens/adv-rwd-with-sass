@@ -76,7 +76,7 @@ img, video {
 }
 
 body {
-  background-color: #2a9ed5;
+  background-color: #fe4432;
   font-family: 'pt';
   font-size: 2em;
 }
@@ -85,9 +85,64 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.reveal a {
+  color: inherit;
+  text-decoration: none;
+}
+.cs .reveal a {
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiNmZWRlMzIiLz48c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzNjM2MzYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-linear-gradient(bottom, #fede32 75%, #3c3c3c 75%);
+  background-image: linear-gradient(to top, #fede32 75%, #3c3c3c 75%);
+  background-size: 0.125em 0.1875em;
+  background-position: 0 1.125em;
+  text-shadow: 0.0625em 0.0625em 0 #fede32, -0.0625em 0 0 #fede32;
+}
 .reveal h1:not(.north), .reveal h2:not(.north), .reveal h3:not(.north), .reveal h4:not(.north), .reveal h5:not(.north) {
   font-family: 'ostrich';
   letter-spacing: .1em;
+}
+.reveal h1 a, .reveal h2 a, .reveal h3 a, .reveal h4 a, .reveal h5 a {
+  background-position: 0 0.825em !important;
+}
+
+.intro .reveal .controls div.navigate-left {
+  border-right-color: white;
+}
+.north .reveal .controls div.navigate-left {
+  border-right-color: #061b25;
+}
+.cs .reveal .controls div.navigate-left {
+  border-right-color: #3c3c3c;
+}
+.intro .reveal .controls div.navigate-right {
+  border-left-color: white;
+}
+.north .reveal .controls div.navigate-right {
+  border-left-color: #061b25;
+}
+.cs .reveal .controls div.navigate-right {
+  border-left-color: #3c3c3c;
+}
+.intro .reveal .controls div.navigate-up {
+  border-bottom-color: white;
+}
+.north .reveal .controls div.navigate-up {
+  border-bottom-color: #061b25;
+}
+.cs .reveal .controls div.navigate-up {
+  border-bottom-color: #3c3c3c;
+}
+.intro .reveal .controls div.navigate-down {
+  border-top-color: white;
+}
+.north .reveal .controls div.navigate-down {
+  border-top-color: #061b25;
+}
+.cs .reveal .controls div.navigate-down {
+  border-top-color: #3c3c3c;
 }
 
 .intro .state-background {
@@ -96,9 +151,16 @@ body {
 .north .state-background {
   background: #f7fafc;
 }
+.cs .state-background {
+  background: #fede32;
+}
 
 .intro {
   color: white;
+}
+
+.cs {
+  color: #3c3c3c;
 }
 
 .reveal .north--logo, .reveal .north--wordmark {
@@ -113,6 +175,9 @@ body {
   text-transform: lowercase;
   display: inline-block;
   border: none;
+}
+.north {
+  color: #061b25;
 }
 .reveal .north--title {
   font-size: 7em;
@@ -149,4 +214,15 @@ body {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+h1 a.wordmark {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-family: 'ostrich-wordmark';
+  background: none !important;
+  text-shadow: none !important;
+}
+h1 a.wordmark .wordmark--4 {
+  margin-left: -.10em;
 }

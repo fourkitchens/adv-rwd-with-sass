@@ -93,7 +93,7 @@ $browser-minimum-versions: (
 
 
 body {
-  background-color: #2a9ed5;
+  background-color: #fe4432;
   font-family: 'pt';
   font-size: 2em;
 }
@@ -103,12 +103,50 @@ body {
 }
 
 .reveal {
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    .cs & {
+      @include underline(#fede32, #3c3c3c)
+    }
+  }
+
+
   h1, h2, h3, h4, h5  {
     &:not(.north) {
       font-family: 'ostrich';
       letter-spacing: .1em;
     }
 
+    a {
+      background-position: 0 0.825em !important;
+    }
+  }
+}
+
+.reveal .controls div.navigate {
+  $states: (
+    "intro": white,
+    "north": #061b25,
+    "cs": #3c3c3c
+  );
+
+  $dirs: (
+    left: right,
+    right: left,
+    up: bottom,
+    down: top
+  );
+
+  @each $dir, $border in $dirs {
+    &-#{$dir} {
+      @each $state, $color in $states {
+        .#{$state} & {
+          border-#{$border}-color: $color;
+        }
+      }
+    }
   }
 }
 
@@ -119,10 +157,17 @@ body {
   .north & {
     background: #f7fafc;
   }
+  .cs & {
+    background: #fede32;
+  }
 }
 
 .intro {
   color: white;
+}
+
+.cs {
+  color: #3c3c3c;
 }
 
 .reveal .north {
@@ -155,6 +200,12 @@ body {
       text-transform: lowercase;
       display: inline-block;
       border: none;
+    }
+  }
+
+  @at-root {
+    .north {
+      color: $black;
     }
   }
 
@@ -199,6 +250,18 @@ body {
       left: 0;
       top: 0;
     }
+  }
+}
+
+h1 a.wordmark {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-family: 'ostrich-wordmark';
+  background: none !important;
+  text-shadow: none !important;
+
+  .wordmark--4 {
+    margin-left: -.10em;
   }
 }
 
