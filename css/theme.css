@@ -76,7 +76,7 @@ img, video {
 }
 
 body {
-  background-color: #fe4432;
+  background-color: #97e52d;
   font-family: 'pt';
   font-size: 2em;
 }
@@ -106,6 +106,13 @@ body {
 }
 .reveal h1 a, .reveal h2 a, .reveal h3 a, .reveal h4 a, .reveal h5 a {
   background-position: 0 0.825em !important;
+}
+.reveal pre {
+  font-size: 1em;
+}
+.reveal pre.codemark {
+  box-shadow: none;
+  font-size: .55em;
 }
 
 .intro .reveal .controls div.navigate-left {
@@ -159,7 +166,8 @@ body {
   color: white;
 }
 
-.cs {
+.cs,
+.tools {
   color: #3c3c3c;
 }
 

@@ -93,7 +93,7 @@ $browser-minimum-versions: (
 
 
 body {
-  background-color: #fe4432;
+  background-color: #97e52d;
   font-family: 'pt';
   font-size: 2em;
 }
@@ -108,8 +108,12 @@ body {
     text-decoration: none;
 
     .cs & {
-      @include underline(#fede32, #3c3c3c)
+      @include underline(#fede32, #3c3c3c);
     }
+
+    // .tools & {
+    //   @include underline(#97e52d, #3c3c3c);
+    // }
   }
 
 
@@ -121,6 +125,14 @@ body {
 
     a {
       background-position: 0 0.825em !important;
+    }
+  }
+
+  pre {
+    font-size: 1em;
+    &.codemark {
+      box-shadow: none;
+      font-size: .55em;
     }
   }
 }
@@ -166,7 +178,8 @@ body {
   color: white;
 }
 
-.cs {
+.cs,
+.tools {
   color: #3c3c3c;
 }
 
