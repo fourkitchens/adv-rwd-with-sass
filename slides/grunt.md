@@ -1,0 +1,1 @@
+[![Grunt Logo](http://snugug.github.io/images/grunt.png)](https://www.gruntjs.com/)

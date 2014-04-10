@@ -362,7 +362,191 @@
       "data-state": "cs",
       "id": "deliverable-5"
     }
+  },
+
+
+
+
+
+
+
+
+  {
+    "filename": "tools.md",
+    "attr":  {
+      "id": "tools",
+      "data-state": "tools"
+    }
+  },
+
+  [
+    {
+      "filename": "yo.md",
+      "attr":  {
+        "id": "yeoman",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "yo-overview.md",
+      "attr":  {
+        "id": "yeoman-overview",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "bundler.md",
+      "attr":  {
+        "id": "bundler",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "bundler-overview.md",
+      "attr":  {
+        "id": "bundler-overview",
+        "data-state": "tools"
+      }
+    }
+    ,
+    {
+      "filename": "bundler-gemfile.md",
+      "attr":  {
+        "id": "bundler-gemfile",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "npm.md",
+      "attr":  {
+        "id": "npm",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "npm-overview.md",
+      "attr":  {
+        "id": "npm-overview",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "bower.md",
+      "attr":  {
+        "id": "bower",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "bower-overview.md",
+      "attr":  {
+        "id": "bower-overview",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "grunt.md",
+      "attr":  {
+        "id": "grunt",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "grunt-overview.md",
+      "attr":  {
+        "id": "grunt-overview",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "gulp.md",
+      "attr":  {
+        "id": "gulp",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "gulp-overview.md",
+      "attr":  {
+        "id": "gulp-overview",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "browsersync.md",
+      "attr":  {
+        "id": "browsersync",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "browsersync-overview.md",
+      "attr":  {
+        "id": "browsersync-overview",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "yo-north.html",
+      "attr":  {
+        "id": "north-generator",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "yo-north-overview.md",
+      "attr":  {
+        "id": "yo-north-overview",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "yo-sketch.html",
+      "attr":  {
+        "id": "sketch-generator",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "yo-sketch-overview.md",
+      "attr":  {
+        "id": "yo-sketch-overview",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  {
+    "filename": "activity.md",
+    "attr": {
+      "id": "coding-activity"
+    }
   }
+
 
 
 

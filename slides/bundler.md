@@ -1,0 +1,1 @@
+[![Bundler Logo](http://snugug.github.io/images/gembundler.png)](http://bundler.io/)

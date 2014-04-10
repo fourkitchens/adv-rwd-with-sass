@@ -1,0 +1,1 @@
+[![Yeoman](http://snugug.github.io/images/yeoman.png)](http://yeoman.io/)
