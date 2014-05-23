@@ -8,6 +8,7 @@
 @import url(http://snugug.github.io/fonts/ostrich.css);
 @import url(http://snugug.github.io/fonts/scp.css);
 @import url(http://snugug.github.io/fonts/pt.css);
+/* line 5, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,62 +30,75 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* line 22, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
+/* line 24, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
+/* line 26, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 28, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
+/* line 30, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
+/* line 103, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
+/* line 32, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
+/* line 116, ../vendor/ruby/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
+/* line 1, ../vendor/ruby/2.0.0/gems/toolkit-2.3.0/stylesheets/toolkit/_kickstart.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* line 11, ../vendor/ruby/2.0.0/gems/toolkit-2.3.0/stylesheets/toolkit/_kickstart.scss */
 img, video {
   max-width: 100%;
   height: auto;
 }
 
+/* line 50, ../sass/theme.scss */
 body {
-  background-color: #97e52d;
+  background-color: #fede32;
   font-family: 'pt';
   font-size: 2em;
 }
 
+/* line 56, ../sass/theme.scss */
 * {
   text-rendering: optimizeLegibility;
 }
 
+/* line 61, ../sass/theme.scss */
 .reveal blockquote {
   border: none;
   box-shadow: none;
@@ -93,18 +107,19 @@ body {
   border-right: .2em solid;
   padding: 0 1em 0 0;
 }
+/* line 69, ../sass/theme.scss */
 .reveal blockquote cite {
   font-size: .75em;
   font-weight: bold;
 }
+/* line 75, ../sass/theme.scss */
 .reveal ul {
   margin-bottom: 1em;
 }
+/* line 80, ../sass/theme.scss */
 .reveal a {
   color: inherit;
   text-decoration: none;
-}
-.cs .reveal a {
   text-decoration: none;
   background-repeat: repeat-x;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiNmZWRlMzIiLz48c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzNjM2MzYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -115,77 +130,147 @@ body {
   background-position: 0 1.125em;
   text-shadow: 0.0625em 0.0625em 0 #fede32, -0.0625em 0 0 #fede32;
 }
+/* line 86, ../sass/theme.scss */
+.intro .reveal a {
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-linear-gradient(bottom, #000000 75%, #ffffff 75%);
+  background-image: linear-gradient(to top, #000000 75%, #ffffff 75%);
+  background-size: 0.125em 0.1875em;
+  background-position: 0 1.125em;
+  text-shadow: 0.0625em 0.0625em 0 black, -0.0625em 0 0 black;
+}
+/* line 90, ../sass/theme.scss */
+.north .reveal a {
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiNmN2ZhZmMiLz48c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzA2MWIyNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-linear-gradient(bottom, #f7fafc 75%, #061b25 75%);
+  background-image: linear-gradient(to top, #f7fafc 75%, #061b25 75%);
+  background-size: 0.125em 0.1875em;
+  background-position: 0 1.125em;
+  text-shadow: 0.0625em 0.0625em 0 #f7fafc, -0.0625em 0 0 #f7fafc;
+}
+/* line 94, ../sass/theme.scss */
+.reveal a.north--link {
+  background: none;
+  text-shadow: none;
+}
+/* line 106, ../sass/theme.scss */
 .reveal h1:not(.north), .reveal h2:not(.north), .reveal h3:not(.north), .reveal h4:not(.north), .reveal h5:not(.north) {
   font-family: 'ostrich';
   letter-spacing: .1em;
 }
+/* line 111, ../sass/theme.scss */
 .reveal h1 a, .reveal h2 a, .reveal h3 a, .reveal h4 a, .reveal h5 a {
   background-position: 0 0.825em !important;
 }
-.reveal pre {
+/* line 116, ../sass/theme.scss */
+.reveal pre,
+.reveal code {
+  font-family: 'scp' monospace;
   font-size: 1em;
 }
-.reveal pre.codemark {
+/* line 120, ../sass/theme.scss */
+.reveal pre.codemark,
+.reveal code.codemark {
   box-shadow: none;
   font-size: .55em;
 }
 
+/* line 142, ../sass/theme.scss */
+.reveal .controls div.navigate-left {
+  border-right-color: #3c3c3c;
+}
+/* line 146, ../sass/theme.scss */
 .intro .reveal .controls div.navigate-left {
   border-right-color: white;
 }
+/* line 146, ../sass/theme.scss */
 .north .reveal .controls div.navigate-left {
   border-right-color: #061b25;
 }
+/* line 146, ../sass/theme.scss */
 .cs .reveal .controls div.navigate-left {
   border-right-color: #3c3c3c;
 }
+/* line 142, ../sass/theme.scss */
+.reveal .controls div.navigate-right {
+  border-left-color: #3c3c3c;
+}
+/* line 146, ../sass/theme.scss */
 .intro .reveal .controls div.navigate-right {
   border-left-color: white;
 }
+/* line 146, ../sass/theme.scss */
 .north .reveal .controls div.navigate-right {
   border-left-color: #061b25;
 }
+/* line 146, ../sass/theme.scss */
 .cs .reveal .controls div.navigate-right {
   border-left-color: #3c3c3c;
 }
+/* line 142, ../sass/theme.scss */
+.reveal .controls div.navigate-up {
+  border-bottom-color: #3c3c3c;
+}
+/* line 146, ../sass/theme.scss */
 .intro .reveal .controls div.navigate-up {
   border-bottom-color: white;
 }
+/* line 146, ../sass/theme.scss */
 .north .reveal .controls div.navigate-up {
   border-bottom-color: #061b25;
 }
+/* line 146, ../sass/theme.scss */
 .cs .reveal .controls div.navigate-up {
   border-bottom-color: #3c3c3c;
 }
+/* line 142, ../sass/theme.scss */
+.reveal .controls div.navigate-down {
+  border-top-color: #3c3c3c;
+}
+/* line 146, ../sass/theme.scss */
 .intro .reveal .controls div.navigate-down {
   border-top-color: white;
 }
+/* line 146, ../sass/theme.scss */
 .north .reveal .controls div.navigate-down {
   border-top-color: #061b25;
 }
+/* line 146, ../sass/theme.scss */
 .cs .reveal .controls div.navigate-down {
   border-top-color: #3c3c3c;
 }
 
+/* line 155, ../sass/theme.scss */
 .intro .state-background {
   background: black;
 }
+/* line 158, ../sass/theme.scss */
 .north .state-background {
   background: #f7fafc;
 }
+/* line 161, ../sass/theme.scss */
 .cs .state-background {
   background: #fede32;
 }
 
+/* line 166, ../sass/theme.scss */
 .intro {
   color: white;
 }
 
+/* line 170, ../sass/theme.scss */
 .cs,
 .tools {
   color: #3c3c3c;
 }
 
+/* line 198, ../sass/theme.scss */
 .reveal .north--logo, .reveal .north--wordmark {
   -webkit-font-feature-settings: "liga","dlig";
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -199,20 +284,29 @@ body {
   display: inline-block;
   border: none;
 }
+/* line 209, ../sass/theme.scss */
 .north {
   color: #061b25;
 }
+/* line 214, ../sass/theme.scss */
 .reveal .north--title {
   font-size: 7em;
 }
+/* line 217, ../sass/theme.scss */
+.reveal .north--title .north--wordmark {
+  font-size: .75em;
+}
+/* line 222, ../sass/theme.scss */
 .reveal .north--logo {
   padding-right: .16em;
+  font-style: normal;
   -ms-transform: translateY(0.1194em);
   -webkit-transform: translateY(0.1194em);
   transform: translateY(0.1194em);
 }
+/* line 229, ../sass/theme.scss */
 .reveal .north--wordmark {
-  font-size: .75em;
+  font-style: normal;
   color: #5ea9d0;
   text-transform: uppercase;
   position: relative;
@@ -220,6 +314,7 @@ body {
   display: inline-block;
   font-family: 'homestead-one', 'homestead-regular';
 }
+/* line 242, ../sass/theme.scss */
 .reveal .north--wordmark:before {
   content: 'north';
   text-transform: uppercase;
@@ -229,6 +324,7 @@ body {
   left: 0;
   top: -0.065em;
 }
+/* line 251, ../sass/theme.scss */
 .reveal .north--wordmark:after {
   content: 'north';
   text-transform: uppercase;
@@ -239,6 +335,7 @@ body {
   top: 0;
 }
 
+/* line 263, ../sass/theme.scss */
 h1 a.wordmark {
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -246,6 +343,7 @@ h1 a.wordmark {
   background: none !important;
   text-shadow: none !important;
 }
+/* line 270, ../sass/theme.scss */
 h1 a.wordmark .wordmark--4 {
   margin-left: -.10em;
 }

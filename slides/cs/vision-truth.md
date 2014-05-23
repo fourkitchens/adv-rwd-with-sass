@@ -1,0 +1,1 @@
+The **grounding point** of a project, the Project Vision is a *single sentence source of truth* around which all decisions will be made

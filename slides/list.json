@@ -6,7 +6,7 @@
     }
   },
   {
-    "filename": "easy.html",
+    "filename": "intro/easy.html",
     "attr": {
       "data-state": "intro",
       "id": "easy"
@@ -14,21 +14,21 @@
   },
   [
     {
-      "filename": "is.md",
+      "filename": "intro/is.md",
       "attr": {
         "data-state": "intro",
         "id": "is"
       }
     },
     {
-      "filename": "isnt.md",
+      "filename": "intro/isnt.md",
       "attr": {
         "data-state": "intro",
         "id": "isnt"
       }
     },
     {
-      "filename": "agenda.md",
+      "filename": "intro/agenda.md",
       "attr": {
         "data-state": "intro",
         "id": "agenda"
@@ -38,7 +38,7 @@
 
 
   {
-    "filename": "modern.md",
+    "filename": "north/modern.md",
     "attr": {
       "data-state": "north",
       "id": "modern"
@@ -46,63 +46,63 @@
   },
   [
     {
-      "filename": "myths.html",
+      "filename": "north/myths.html",
       "attr": {
         "data-state": "north",
         "id": "myth-busting"
       }
     },
     {
-      "filename": "myths-squishy.html",
+      "filename": "north/myths-squishy.html",
       "attr": {
         "data-state": "north",
         "id": "myth-squishy "
       }
     },
     {
-      "filename": "fact-squishy.html",
+      "filename": "north/fact-squishy.html",
       "attr": {
         "data-state": "north",
         "id": "fact-squishy "
       }
     },
     {
-      "filename": "myths-about-devices.html",
+      "filename": "north/myths-about-devices.html",
       "attr": {
         "data-state": "north",
         "id": "myth-devices "
       }
     },
     {
-      "filename": "fact-devices.html",
+      "filename": "north/fact-devices.html",
       "attr": {
         "data-state": "north",
         "id": "fact-devices "
       }
     },
     {
-      "filename": "fact-devices-quote.html",
+      "filename": "north/fact-devices-quote.html",
       "attr": {
         "data-state": "north",
         "id": "fact-devices-quote "
       }
     },
     {
-      "filename": "myths-pictures.html",
+      "filename": "north/myths-pictures.html",
       "attr": {
         "data-state": "north",
         "id": "myth-pictures "
       }
     },
     {
-      "filename": "fact-pictures.html",
+      "filename": "north/fact-pictures.html",
       "attr": {
         "data-state": "north",
         "id": "fact-pictures "
       }
     },
     {
-      "filename": "fact-pictures-quote.html",
+      "filename": "north/fact-pictures-quote.html",
       "attr": {
         "data-state": "north",
         "id": "fact-pictures-quote "
@@ -111,7 +111,7 @@
 
   ],
   {
-    "filename": "north.html",
+    "filename": "north/north.html",
     "attr": {
       "data-state": "north",
       "id": "north"
@@ -119,26 +119,40 @@
   },
   [
     {
-      "filename": "north-cs.md",
+      "filename": "north/cs1.html",
       "attr": {
-        "data-state": "north",
-        "id": "north-cs"
+        "id": "what-is-cs-1",
+        "data-state": "north"
       }
     },
     {
-      "filename": "north-components.md",
+      "filename": "north/cs2.html",
       "attr": {
-        "data-state": "north",
-        "id": "north-components"
+        "id": "what-is-cs-2",
+        "data-state": "north"
+      }
+    },
+    {
+      "filename": "north/cs3.html",
+      "attr": {
+        "id": "what-is-cs-3",
+        "data-state": "north"
       }
     }
   ],
+  {
+    "filename": "north/north-components.md",
+    "attr": {
+      "data-state": "north",
+      "id": "north-components"
+    }
+  },
 
 
 
 
   {
-    "filename": "cs.md",
+    "filename": "cs/cs.md",
     "attr": {
       "data-state": "cs",
       "id": "content-strategy"
@@ -153,24 +167,31 @@
       }
     },
     {
-      "filename": "cs-now-what.md",
+      "filename": "cs/now-what.md",
       "attr": {
         "data-state": "cs",
         "id": "pizza-now-what"
       }
     }
   ],
+  {
+    "filename": "cs/pillars.html",
+    "attr": {
+      "data-state": "cs",
+      "id": "cs-pillars"
+    }
+  },
 
   [
     {
-      "filename": "roles.md",
+      "filename": "cs/roles.md",
       "attr": {
         "data-state": "cs",
         "id": "roles-and-responsibilities"
       }
     },
     {
-      "filename": "roles-list.html",
+      "filename": "cs/roles-list.html",
       "attr": {
         "data-state": "cs",
         "id": "roles-list"
@@ -180,14 +201,21 @@
 
   [
     {
-      "filename": "cs-vision.md",
+      "filename": "cs/vision.md",
       "attr": {
         "data-state": "cs",
         "id": "project-vision"
       }
     },
     {
-      "filename": "cs-vision-components.md",
+      "filename": "cs/vision-truth.md",
+      "attr": {
+        "data-state": "cs",
+        "id": "project-vision-truth"
+      }
+    },
+    {
+      "filename": "cs/vision-components.md",
       "attr": {
         "data-state": "cs",
         "id": "project-vision-parts"
@@ -196,7 +224,7 @@
   ],
 
   {
-    "filename": "intake.html",
+    "filename": "cs/intake.html",
     "attr": {
       "data-state": "cs",
       "id": "intake-center"
@@ -204,7 +232,7 @@
   },
 
   {
-    "filename": "deliverable-1.md",
+    "filename": "activities/deliverable-1.md",
     "attr":  {
       "data-state": "cs",
       "id": "deliverable-1"
@@ -213,21 +241,21 @@
 
   [
     {
-      "filename": "cs-personas.md",
+      "filename": "cs/personas.md",
       "attr": {
         "data-state": "cs",
         "id": "user-personas"
       }
     },
     {
-      "filename": "cs-personas-is.md",
+      "filename": "cs/personas-is.md",
       "attr": {
         "data-state": "cs",
         "id": "user-personas-is"
       }
     },
     {
-      "filename": "cs-personas-components.md",
+      "filename": "cs/personas-components.md",
       "attr": {
         "data-state": "cs",
         "id": "user-personas-parts"
@@ -236,7 +264,7 @@
   ],
 
   {
-    "filename": "deliverable-2.md",
+    "filename": "activities/deliverable-2.md",
     "attr":  {
       "data-state": "cs",
       "id": "deliverable-2"
@@ -245,21 +273,21 @@
 
   [
     {
-      "filename": "cs-inventory.md",
+      "filename": "cs/inventory.md",
       "attr": {
         "data-state": "cs",
         "id": "content-inventory"
       }
     },
     {
-      "filename": "cs-inventory-components.md",
+      "filename": "cs/inventory-components.md",
       "attr": {
         "data-state": "cs",
         "id": "content-inventory-parts"
       }
     },
     {
-      "filename": "cs-inventory-image.md",
+      "filename": "cs/inventory-image.md",
       "attr": {
         "data-state": "cs",
         "id": "content-inventory-example"
@@ -269,21 +297,21 @@
 
   [
     {
-      "filename": "cs-audit.md",
+      "filename": "cs/audit.md",
       "attr": {
         "data-state": "cs",
         "id": "content-audit"
       }
     },
     {
-      "filename": "cs-audit-components.md",
+      "filename": "cs/audit-components.md",
       "attr": {
         "data-state": "cs",
         "id": "content-audit-parts"
       }
     },
     {
-      "filename": "cs-audit-gap.md",
+      "filename": "cs/audit-gap.md",
       "attr": {
         "data-state": "cs",
         "id": "content-audit-gap-analysis"
@@ -292,7 +320,7 @@
   ],
 
   {
-    "filename": "deliverable-3.md",
+    "filename": "activities/deliverable-3.md",
     "attr":  {
       "data-state": "cs",
       "id": "deliverable-3"
@@ -301,14 +329,14 @@
 
   [
     {
-      "filename": "cs-model.md",
+      "filename": "cs/model.md",
       "attr": {
         "data-state": "cs",
         "id": "content-model"
       }
     },
     {
-      "filename": "cs-model-components.md",
+      "filename": "cs/model-components.md",
       "attr": {
         "data-state": "cs",
         "id": "content-model-parts"
@@ -316,7 +344,7 @@
     }
     ,
     {
-      "filename": "cs-model-value.md",
+      "filename": "cs/model-value.md",
       "attr": {
         "data-state": "cs",
         "id": "content-model-value"
@@ -325,7 +353,7 @@
   ],
 
   {
-    "filename": "deliverable-4.md",
+    "filename": "activities/deliverable-4.md",
     "attr":  {
       "data-state": "cs",
       "id": "deliverable-4"
@@ -334,21 +362,21 @@
 
   [
     {
-      "filename": "cs-ia.md",
+      "filename": "cs/ia.md",
       "attr": {
         "data-state": "cs",
         "id": "content-ia"
       }
     },
     {
-      "filename": "cs-ia-components.md",
+      "filename": "cs/ia-components.md",
       "attr": {
         "data-state": "cs",
         "id": "content-ia-parts"
       }
     },
     {
-      "filename": "cs-ia-revise.md",
+      "filename": "cs/ia-revise.md",
       "attr": {
         "data-state": "cs",
         "id": "content-ia-revise"
@@ -357,7 +385,7 @@
   ],
 
   {
-    "filename": "deliverable-5.md",
+    "filename": "activities/deliverable-5.md",
     "attr":  {
       "data-state": "cs",
       "id": "deliverable-5"
@@ -372,7 +400,7 @@
 
 
   {
-    "filename": "tools.md",
+    "filename": "tools/tools.md",
     "attr":  {
       "id": "tools",
       "data-state": "tools"
@@ -381,14 +409,14 @@
 
   [
     {
-      "filename": "yo.md",
+      "filename": "tools/yo.md",
       "attr":  {
         "id": "yeoman",
         "data-state": "tools"
       }
     },
     {
-      "filename": "yo-overview.md",
+      "filename": "tools/yo-overview.md",
       "attr":  {
         "id": "yeoman-overview",
         "data-state": "tools"
@@ -398,24 +426,69 @@
 
   [
     {
-      "filename": "bundler.md",
+      "filename": "tools/sp.md",
+      "attr": {
+        "id": "style-prototypes",
+        "data-state": "intro"
+      }
+    },
+    {
+      "filename": "tools/sp-overview.md",
+      "attr": {
+        "id": "style-prototypes-overview",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "tools/sp-prompt-options.md",
+      "attr": {
+        "id": "style-prototypes-prompt-options",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "tools/sp-command-options.md",
+      "attr": {
+        "id": "style-prototypes-command-options",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "activities/sp.md",
+      "attr": {
+        "id": "style-prototypes-activity",
+        "data-state": "tools"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "tools/bundler.md",
       "attr":  {
         "id": "bundler",
         "data-state": "tools"
       }
     },
     {
-      "filename": "bundler-overview.md",
+      "filename": "tools/bundler-overview.md",
       "attr":  {
         "id": "bundler-overview",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "tools/bundler-gemfile.md",
+      "attr":  {
+        "id": "bundler-gemfile",
         "data-state": "tools"
       }
     }
     ,
     {
-      "filename": "bundler-gemfile.md",
+      "filename": "activities/bundler.md",
       "attr":  {
-        "id": "bundler-gemfile",
+        "id": "bundler-activity",
         "data-state": "tools"
       }
     }
@@ -423,16 +496,23 @@
 
   [
     {
-      "filename": "npm.md",
+      "filename": "tools/npm.md",
       "attr":  {
         "id": "npm",
         "data-state": "tools"
       }
     },
     {
-      "filename": "npm-overview.md",
+      "filename": "tools/npm-overview.md",
       "attr":  {
         "id": "npm-overview",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "activities/npm.md",
+      "attr":  {
+        "id": "npm-activity",
         "data-state": "tools"
       }
     }
@@ -440,16 +520,23 @@
 
   [
     {
-      "filename": "bower.md",
+      "filename": "tools/bower.md",
       "attr":  {
         "id": "bower",
         "data-state": "tools"
       }
     },
     {
-      "filename": "bower-overview.md",
+      "filename": "tools/bower-overview.md",
       "attr":  {
         "id": "bower-overview",
+        "data-state": "tools"
+      }
+    },
+    {
+      "filename": "activities/bower.md",
+      "attr":  {
+        "id": "bower-activity",
         "data-state": "tools"
       }
     }
@@ -457,14 +544,14 @@
 
   [
     {
-      "filename": "grunt.md",
+      "filename": "tools/grunt.md",
       "attr":  {
         "id": "grunt",
         "data-state": "tools"
       }
     },
     {
-      "filename": "grunt-overview.md",
+      "filename": "tools/grunt-overview.md",
       "attr":  {
         "id": "grunt-overview",
         "data-state": "tools"
@@ -474,14 +561,14 @@
 
   [
     {
-      "filename": "gulp.md",
+      "filename": "tools/gulp.md",
       "attr":  {
         "id": "gulp",
         "data-state": "tools"
       }
     },
     {
-      "filename": "gulp-overview.md",
+      "filename": "tools/gulp-overview.md",
       "attr":  {
         "id": "gulp-overview",
         "data-state": "tools"
@@ -491,14 +578,14 @@
 
   [
     {
-      "filename": "browsersync.md",
+      "filename": "tools/browsersync.md",
       "attr":  {
         "id": "browsersync",
         "data-state": "tools"
       }
     },
     {
-      "filename": "browsersync-overview.md",
+      "filename": "tools/browsersync-overview.md",
       "attr":  {
         "id": "browsersync-overview",
         "data-state": "tools"
@@ -508,14 +595,14 @@
 
   [
     {
-      "filename": "yo-north.html",
+      "filename": "tools/yo-north.html",
       "attr":  {
         "id": "north-generator",
         "data-state": "tools"
       }
     },
     {
-      "filename": "yo-north-overview.md",
+      "filename": "tools/yo-north-overview.md",
       "attr":  {
         "id": "yo-north-overview",
         "data-state": "tools"
@@ -523,25 +610,8 @@
     }
   ],
 
-  [
-    {
-      "filename": "yo-sketch.html",
-      "attr":  {
-        "id": "sketch-generator",
-        "data-state": "tools"
-      }
-    },
-    {
-      "filename": "yo-sketch-overview.md",
-      "attr":  {
-        "id": "yo-sketch-overview",
-        "data-state": "tools"
-      }
-    }
-  ],
-
   {
-    "filename": "activity.md",
+    "filename": "activities/activity.md",
     "attr": {
       "id": "coding-activity"
     }

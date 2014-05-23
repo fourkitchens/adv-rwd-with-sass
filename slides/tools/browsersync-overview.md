@@ -3,3 +3,4 @@
 * Task runner integration
 * Node.js based server
 * Can work with any fronted (with snippet)
+* (Style Prototypes uses this)

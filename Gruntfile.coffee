@@ -118,7 +118,6 @@ module.exports = (grunt) ->
     grunt.registerTask 'server',
         'Run presentation locally and start watch process (living document).', [
             'buildIndex'
-            'compass'
             'connect:livereload'
             'watch'
         ]
