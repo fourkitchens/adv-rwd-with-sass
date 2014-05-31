@@ -659,7 +659,56 @@
     "attr": {
       "id": "coding-activity"
     }
-  }
+  },
+
+  [
+    {
+      "filename": "design/components.md",
+      "attr": {
+        "id": "component-design",
+        "data-state": "design"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "design/layouts.md",
+      "attr": {
+        "id": "layouts",
+        "data-state": "design"
+      }
+    },
+    {
+      "filename": "design/layouts/sp.md",
+      "attr": {
+        "id": "sp-layouts",
+        "data-state": "design"
+      }
+    },
+    {
+      "filename": "design/layouts/breakpoint.md",
+      "attr": {
+        "id": "breakpoint",
+        "data-state": "design"
+      }
+    },
+    {
+      "filename": "design/layouts/singularity.md",
+      "attr": {
+        "id": "singularity",
+        "data-state": "design"
+      }
+    },
+    {
+      "filename": "design/layouts/grid.md",
+      "attr": {
+        "id": "grids",
+        "data-state": "design"
+      }
+    }
+
+  ]
 
 
 

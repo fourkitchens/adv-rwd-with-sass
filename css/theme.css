@@ -176,6 +176,9 @@ body {
 .cs .state-background {
   background: #fede32;
 }
+.design .state-background {
+  background: #3252fe;
+}
 
 .intro {
   color: white;
