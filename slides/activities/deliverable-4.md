@@ -1,3 +1,3 @@
 ## Activity
 
-* Create content models for *Store Location* and *Speciality Pizza*
+Create content models for *Store Location* and *Speciality Pizza*
