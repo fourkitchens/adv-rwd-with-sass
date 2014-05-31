@@ -766,10 +766,29 @@
         "data-state": "coding-activity"
       }
     }
+  ],
 
-  ]
+  {
+    "filename": "wrap-up/questions.md",
+    "attr": {
+      "id": "questions",
+      "data-state": "wrap-up"
+    }
+  },
 
+  {
+    "filename": "wrap-up/wrap-up.md",
+    "attr": {
+      "id": "wrap-up",
+      "data-state": "wrap-up"
+    }
+  },
 
-
-
+  {
+    "filename": "wrap-up/4k.md",
+    "attr": {
+      "id": "fk",
+      "data-state": "wrap-up"
+    }
+  }
 ]

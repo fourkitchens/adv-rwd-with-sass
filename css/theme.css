@@ -179,6 +179,9 @@ body {
 .design .state-background {
   background: #3252fe;
 }
+.wrap-up .state-background {
+  background: white;
+}
 
 .intro {
   color: white;
@@ -251,4 +254,9 @@ h1 a.wordmark {
 }
 h1 a.wordmark .wordmark--4 {
   margin-left: -.10em;
+}
+
+.fk-logo {
+  width: 100%;
+  height: 100%;
 }
