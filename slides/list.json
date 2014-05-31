@@ -411,6 +411,13 @@
         "data-state": "cs",
         "id": "content-ia-revise"
       }
+    },
+    {
+      "filename": "cs/ia-example.html",
+      "attr": {
+        "data-state": "cs",
+        "id": "content-ia-example"
+      }
     }
   ],
 
