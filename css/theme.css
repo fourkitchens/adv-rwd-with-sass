@@ -177,14 +177,10 @@ body {
   background: #fede32;
 }
 .design .state-background {
-  background: #3252fe;
+  background: #fe4432;
 }
 .wrap-up .state-background {
-  background: white;
-}
-
-.wrap-up {
-  color: #666666;
+  background: #ddd;
 }
 
 .intro {
@@ -192,7 +188,8 @@ body {
 }
 
 .cs,
-.tools {
+.tools,
+.wrap-up {
   color: #3c3c3c;
 }
 

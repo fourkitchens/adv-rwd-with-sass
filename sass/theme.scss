@@ -192,16 +192,12 @@ body {
     background: #fede32;
   }
   .design & {
-    background: #3252fe;
+    background: #fe4432;
   }
 
   .wrap-up & {
-    background: white;
+    background: #ddd;
   }
-}
-
-.wrap-up {
-  color: #666666;
 }
 
 .intro {
@@ -209,7 +205,8 @@ body {
 }
 
 .cs,
-.tools {
+.tools,
+.wrap-up {
   color: #3c3c3c;
 }
 
