@@ -484,6 +484,13 @@
       }
     },
     {
+      "filename": "tools/sp-subs.md",
+      "attr": {
+	"id": "style-prototypes-sub-generators",
+	"data-state": "tools"
+      }
+    },
+    {
       "filename": "activities/sp.md",
       "attr": {
         "id": "style-prototypes-activity",
