@@ -663,6 +663,30 @@
 
   [
     {
+      "filename": "design/style-tiles.md",
+      "attr": {
+        "id": "style-tiles",
+        "data-state": "design"
+      }
+    },
+    {
+      "filename": "design/eqjs.md",
+      "attr": {
+        "id": "eqjs",
+        "data-state": "design"
+      }
+    },
+    {
+      "filename": "design/toolkit.md",
+      "attr": {
+        "id": "toolkit",
+        "data-state": "design"
+      }
+    }
+  ],
+
+  [
+    {
       "filename": "design/components.md",
       "attr": {
         "id": "component-design",
@@ -688,6 +712,13 @@
       "attr": {
         "id": "styling",
         "data-state": "design"
+      }
+    },
+    {
+      "filename": "activities/create-components.md",
+      "attr": {
+        "id": "create-components",
+        "data-state": "coding-activity"
       }
     }
   ],
@@ -726,6 +757,13 @@
       "attr": {
         "id": "grids",
         "data-state": "design"
+      }
+    },
+    {
+      "filename": "activities/create-layouts.md",
+      "attr": {
+        "id": "create-layouts",
+        "data-state": "coding-activity"
       }
     }
 
