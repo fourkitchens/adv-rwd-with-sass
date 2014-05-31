@@ -668,6 +668,27 @@
         "id": "component-design",
         "data-state": "design"
       }
+    },
+    {
+      "filename": "design/components/sp.md",
+      "attr": {
+        "id": "sp-components",
+        "data-state": "design"
+      }
+    },
+    {
+      "filename": "design/components/markup.md",
+      "attr": {
+        "id": "markup",
+        "data-state": "design"
+      }
+    },
+    {
+      "filename": "design/components/styling.md",
+      "attr": {
+        "id": "styling",
+        "data-state": "design"
+      }
     }
   ],
 
