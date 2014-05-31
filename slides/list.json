@@ -14,6 +14,36 @@
   },
   [
     {
+      "filename": "intro/who.md",
+      "attr": {
+        "data-state": "intro",
+        "id": "who"
+      }
+    },
+    {
+      "filename": "intro/sam.md",
+      "attr": {
+        "data-state": "intro",
+        "id": "sam"
+      }
+    },
+    {
+      "filename": "intro/ian.md",
+      "attr": {
+        "data-state": "intro",
+        "id": "ian"
+      }
+    },
+    {
+      "filename": "intro/rupl.md",
+      "attr": {
+        "data-state": "intro",
+        "id": "rupl"
+      }
+    }
+  ],
+  [
+    {
       "filename": "intro/is.md",
       "attr": {
         "data-state": "intro",
