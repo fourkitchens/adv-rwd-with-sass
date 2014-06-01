@@ -180,11 +180,15 @@ body {
   background: #fe4432;
 }
 .wrap-up .state-background {
-  background: #ddd;
+  background: white;
 }
 
 .intro {
   color: white;
+}
+
+.wrap-up {
+  color: #666666;
 }
 
 .cs,
